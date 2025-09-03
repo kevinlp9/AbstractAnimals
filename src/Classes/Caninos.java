@@ -1,6 +1,6 @@
 package Classes;
 
-public class Caninos extends Mamifero{
+public abstract class Caninos extends Mamifero{
     protected String color;
     protected double colmillos;
     

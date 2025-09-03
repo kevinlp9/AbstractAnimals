@@ -32,14 +32,9 @@ public class Tigre extends Felino{
 
     @Override
     public void comer() {
-        System.out.println("El Tigre de especie " + getEspecieTigre() + " esta comiendo en su habitat");
+        System.out.println("El Tigre de especie " + getEspecieTigre() + " esta comiendo en su habitat" + getHabitat());
     }
 
-    @Override
-    public String toString() {
-        return "{" +
-                "especieTigre: '" + especieTigre + '\'' +
-                '}';
-    }
+
 
 }
